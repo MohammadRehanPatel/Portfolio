@@ -1,5 +1,5 @@
 /* =================================================================== 
- *  Ethos Main Stylesheet
+ *   Main Stylesheet
  *  Template Ver. 1.0.0
  *  11-05-2019
  *  ------------------------------------------------------------------
@@ -1548,6 +1548,22 @@ input::-moz-focus-inner {
         height: 16rem;
         right: 6.2rem;
     }
+    .skills-wrapper img {
+        margin-top: 1rem;
+        margin-left: 10px;
+        padding: 0.25rem;
+    }
+    .icon-card {
+        background-color: #fff;
+        border-radius: 11px;
+        box-shadow: 0 3px 10px var(--secondary-shadow);
+        padding: 5px;
+        margin: 5px;
+    }
+    .icon {
+        width: 0.2px;
+        height: 0.2px;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -1564,11 +1580,19 @@ input::-moz-focus-inner {
         height: 12rem;
         right: 5rem;
     }
+    .icon {
+        width: 0.2px;
+        height: 0.2px;
+    }
 }
 
 @media screen and (max-width:500px) {
     .display-1 {
         font-size: 4rem;
+    }
+    .icon {
+        width: 0.2px;
+        height: 0.2px;
     }
 }
 
@@ -1579,6 +1603,10 @@ input::-moz-focus-inner {
     .section-intro::before {
         font-size: 20rem;
     }
+    .icon {
+        width: 0.2px;
+        height: 0.2px;
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -1587,6 +1615,10 @@ input::-moz-focus-inner {
     }
     .section-intro::before {
         font-size: 18rem;
+    }
+    .icon {
+        width: 0.2px;
+        height: 0.2px;
     }
 }
 
@@ -1948,6 +1980,10 @@ input::-moz-focus-inner {
         -webkit-transition-delay: .6s;
         transition-delay: .6s;
     }
+    .icon {
+        width: 0.2px;
+        height: 0.2px;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -1962,6 +1998,10 @@ input::-moz-focus-inner {
     }
     .header-content .btn {
         display: block;
+    }
+    .icon {
+        width: 0.2px;
+        height: 0.2px;
     }
 }
 
@@ -3202,7 +3242,7 @@ html.no-csstransitions .hero-content {
 
 .skills-wrapper img {
     margin-top: 1rem;
-    margin-left: 80px;
+    margin-left: 70px;
     background: linear-gradient(rgb(108, 108, 126), rgba(19, 7, 68, 0.5));
     padding: 1.25rem;
 }
@@ -3422,6 +3462,10 @@ html.no-csstransitions .hero-content {
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .icon {
+        width: 8rem;
+        height: 8rem;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -3438,6 +3482,10 @@ html.no-csstransitions .hero-content {
         height: 5.2rem;
         width: 5.2rem;
     }
+    .icon {
+        width: 7.2rem;
+        height: 7.2rem;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -3453,5 +3501,9 @@ html.no-csstransitions .hero-content {
     .ss-go-top {
         right: 2.4rem;
         bottom: 4rem;
+    }
+    .icon {
+        width: 7rem;
+        height: 7rem;
     }
 }
